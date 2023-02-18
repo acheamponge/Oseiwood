@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>OseiWood</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="icon" href="../static/img/logo.JPG" type="image/jpg">
+  <!-- Theme CSS -->
+  <link href="../static/css/freelancer.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+	<link href="../static/css/main.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+<div class="content">
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" style = "color:hsla(0,100%,50%,0.5);text-transform: none; letter-spacing: 20px; font-weight: lighter;" href="/">OseiWood</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-black rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+			<!--  Social Icons -->
+          <li class="nav-item mx-0 mx-lg-1">
+            <a href="/movies">
+				Movies
+			  </a>
+		  </li>
+		  <li class="nav-item mx-0 mx-lg-1">
+            <a href="/shows">
+				Shows
+			  </a>
+		  </li>
+		  <li class="nav-item mx-0 mx-lg-1">
+            <a href="/music">
+				Music
+			  </a>
+		  </li>
+		  <li class="nav-item mx-0 mx-lg-1">
+            <a href="/random">
+				Other
+			  </a>
+          </li>
+		</ul>
+      </div>
+    </div>
+    <!--  <div class="navbar-header">
+         <a style="color:hsla(0,100%,50%,0.5);font-size: 2vw; text-transform: none; letter-spacing: 20px; font-weight: lighter;" class="navbar-brand" href="/">OseiWood</a>
+       </div>
+	  
+	-->
+
+
+	
+	   
+	<!--   <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-black rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+	 
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+			<!--  Social Icons -->
+	<!--
+
+          <li class="nav-item">
+            <a style="color:hsla(0,100%,50%,0.5); margin-top: 35px; letter-spacing: 10px; font-weight: lighter;" href="/movies">Movies</a>
+		  </li>
+		  <li class="nav-item">
+            <a style="color:hsla(0,100%,50%,0.5); margin-top: 35px; letter-spacing: 10px; font-weight: lighter;" href="/shows">Shows</a>
+		  </li>
+		  <li class="nav-item">
+            <a style="color:hsla(0,100%,50%,0.5); margin-top: 35px; letter-spacing: 10px; font-weight: lighter;" href="/music">Music</a>
+		  </li>
+		  <li class="nav-item">
+            <a style="color:hsla(0,100%,50%,0.5); margin-top: 35px; letter-spacing: 10px; font-weight: lighter;" href="/random">Random</a>
+          </li>
+		</ul>
+      
+	  </div>
+	  
+	-->
+  </nav>
+
+  <!-- Center Home -->
+  <header class="masthead bg-primary text-black text-center">
+
+      <!-- Center Image -->
+	  
+	<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="text-transform: none; letter-spacing: 20px; font-weight: lighter;">TV Shows</h2>
+  <section class="page-section portfolio" id="portfolio">
+  
+  <h3 class="text-center text-uppercase text-secondary mb-0" style="text-transform: none; letter-spacing: 10px; font-weight: lighter;">Efiewura</h3>
+    <div class="container">
+		<br/>
+      <!-- Result Heading -->
+	  <!-- Recommendation Card  -->
+	  	<div class="card-deck">
+		
+			{% for item in table_results if item.title == 'Efiewura' %}
+        	<div class="card logo mb-4" style="min-width: 16rem; background-color: #eee;">
+            <div class="card-body">
+				<h4 class="card-title">{{ item.title }}</h4>
+				<p class="card-text text-muted" style="font-weight: bold;">Episode: {{ item.episode }}</p>
+				<div class="iframe-container">
+					<iframe src="{{ item.url }}" width="400" height="250" allowfullscreen></iframe>
+				</div>
+				<br/>
+            </div>
+			</div>
+			{% endfor %}
+		</div>
+	
+	</div>
+	<br>
+	<br>
+	<h3 class="text-center text-uppercase text-secondary mb-0" style="text-transform: none; letter-spacing: 10px; font-weight: lighter;">Taxi Driver</h3>
+    <div class="container">
+		<br/>
+      <!-- Result Heading -->
+	  <!-- Recommendation Card  -->
+	  	<div class="card-deck">
+		
+			{% for item in table_results if item.title == 'Taxi Driver' %}
+        	<div class="card logo mb-4" style="min-width: 16rem; background-color: #eee;">
+            <div class="card-body">
+				<h4 class="card-title">{{ item.title }}</h4>
+				<p class="card-text text-muted" style="font-weight: bold;">Episode: {{ item.episode }}</p>
+				<div class="iframe-container">
+					<iframe src="{{ item.url }}" width="400" height="250" allowfullscreen></iframe>
+				</div>
+				<br/>
+            </div>
+			</div>
+			{% endfor %}
+		</div>
+	
+	</div>
+	<br>
+	<br>
+	<h3 class="text-center text-uppercase text-secondary mb-0" style="text-transform: none; letter-spacing: 10px; font-weight: lighter;">Things We Do For Love</h3>
+    <div class="container">
+		<br/>
+      <!-- Result Heading -->
+	  <!-- Recommendation Card  -->
+	  	<div class="card-deck">
+		
+			{% for item in table_results if item.title == 'Things We Do For Love' %}
+        	<div class="card logo mb-4" style="min-width: 16rem; background-color: #eee;">
+            <div class="card-body">
+				<h4 class="card-title">{{ item.title }}</h4>
+				<p class="card-text text-muted" style="font-weight: bold;">Episode: {{ item.episode }}</p>
+				<div class="iframe-container">
+					<iframe src="{{ item.url }}" width="400" height="250" allowfullscreen></iframe>
+				</div>
+				<br/>
+            </div>
+			</div>
+			{% endfor %}
+		</div>
+	
+	</div>
+	<br>
+	<br>
+	<h3 class="text-center text-uppercase text-secondary mb-0" style="text-transform: none; letter-spacing: 10px; font-weight: lighter;">School Days</h3>
+    <div class="container">
+		<br/>
+      <!-- Result Heading -->
+	  <!-- Recommendation Card  -->
+	  	<div class="card-deck">
+		
+			{% for item in table_results if item.title == 'School Days' %}
+        	<div class="card logo mb-4" style="min-width: 16rem; background-color: #eee;">
+            <div class="card-body">
+				<h4 class="card-title">{{ item.title }}</h4>
+				<p class="card-text text-muted" style="font-weight: bold;">Episode: {{ item.episode }}</p>
+				<div class="iframe-container">
+					<iframe src="{{ item.url }}" width="400" height="250" allowfullscreen></iframe>
+				</div>
+				<br/>
+            </div>
+			</div>
+			{% endfor %}
+		</div>
+	
+	</div>
+	<br>
+	<br>
+	<h3 class="text-center text-uppercase text-secondary mb-0" style="text-transform: none; letter-spacing: 10px; font-weight: lighter;">YOLO</h3>
+    <div class="container">
+		<br/>
+      <!-- Result Heading -->
+	  <!-- Recommendation Card  -->
+	  	<div class="card-deck">
+		
+			{% for item in table_results if item.title == 'YOLO' %}
+        	<div class="card logo mb-4" style="min-width: 16rem; background-color: #eee;">
+            <div class="card-body">
+				<h4 class="card-title">{{ item.title }}</h4>
+				<p class="card-text text-muted" style="font-weight: bold;">Episode: {{ item.episode }}</p>
+				<div class="iframe-container">
+					<iframe src="{{ item.url }}" width="400" height="250" allowfullscreen></iframe>
+				</div>
+				<br/>
+            </div>
+			</div>
+			{% endfor %}
+		</div>
+	
+	</div>
+
+  </header>
+  
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../static/js/freelancer.min.js"></script>
+
+  <footer class="copyright py-4 text-center footer">
+    <div class="contn">
+      <small>Copyright &copy; OseiWood 2021</small>
+	</div>
+  </footer>
+</div>
+</body>
+
+</html>
