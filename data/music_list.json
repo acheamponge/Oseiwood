@@ -1,0 +1,122 @@
+{
+   "1": {
+      "type": "Gospel",
+      "title": "MO NE YO",
+      "director": "Jewel Chinery",
+	  "episode": "Diana Hamilton",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/Yv9NMhKfF2k"
+   },
+   "2": {
+      "type": "Gospel",
+      "title": "Alpha & Omega",
+      "director": "Jewel Chinery",
+	  "episode": "Selina Boateng Ft. Uncle Ato",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/mAKgvToAqC0"
+   },
+   "3": {
+      "type": "Gospel",
+      "title": "Monko Mo Akyi",
+      "director": "Jewel Chinery",
+	  "episode": "Joyce Blessing",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/mdRJb0pfSLo"
+   },
+   "4": {
+      "type": "Hip-Life",
+      "title": "Ahomka Womu",
+      "director": "Jewel Chinery",
+	  "episode": "VIP",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/5Dj_CEXVHT8"
+   },
+   "5": {
+      "type": "Hip-Life",
+      "title": "FeFe Ne Fe",
+      "director": "Jewel Chinery",
+	  "episode": "Tic Tac ft. Tony Tetuila",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/5qouTweiKHQ"
+   },
+   "6": {
+      "type": "Hip-Life",
+      "title": "Adonai",
+      "director": "Jewel Chinery",
+	  "episode": "Sarkodie ft. Castro",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/ipZvlG-wwWk"
+   },
+   "7": {
+      "type": "Afro Beat",
+      "title": "Wish Me Well",
+      "director": "Jewel Chinery",
+	  "episode": "Kuami Eugene",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/p7rHAeoSbYc"
+   },
+   "8": {
+      "type": "Afro Beat",
+      "title": "Odo",
+      "director": "Jewel Chinery",
+	  "episode": "KiDi",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/jINRh9t3hw0"
+   },
+   "9": {
+      "type": "Afro Beat",
+      "title": "Sing My Name",
+      "director": "Jewel Chinery",
+	  "episode": "MzVee ft Patoranking",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/1NQ0Ffm_PaM"
+   },
+    "10": {
+      "type": "Dance Hall",
+      "title": "Dancehall King",
+      "director": "Jewel Chinery",
+	  "episode": "Shatta Wale",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/CYiCIyhq01o"
+   },
+    "11": {
+      "type": "Dance Hall",
+      "title": "Shuga",
+      "director": "Jewel Chinery",
+	  "episode": "Stonebwoy, Beenie Man",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/jNgY-3YKj1Q"
+   },
+    "12": {
+      "type": "Dance Hall",
+      "title": "My Own",
+      "director": "Jewel Chinery",
+	  "episode": "Samini",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/C0jF8519TTQ"
+   },
+      "13": {
+      "type": "Adadamu",
+      "title": "Abaa saa",
+      "director": "Jewel Chinery",
+	  "episode": "Dr. Paa Bobo",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/c_BCyfciP18"
+   },
+       "14": {
+      "type": "Adadamu",
+      "title": "Adwoa Yankey",
+      "director": "Jewel Chinery",
+	  "episode": "CK Mann",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/jNmxUBaCC2U"
+   },
+       "15": {
+      "type": "Adadamu",
+      "title": "Sika Ye Mogya",
+      "director": "Jewel Chinery",
+	  "episode": "Pat Thomas",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/xvOLleIoJ1g"
+   }
+}

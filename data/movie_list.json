@@ -1,0 +1,44 @@
+{
+   "1": {
+      "type": "movie",
+      "title": "Nsee Me Din",
+      "director": "Jewel Chinery",
+      "cast": "Kwadwo Nkansa, Akwasi Boadi, Emilia Brobbey, Sandra Thoompson, Fanny Fay, Henry Obiri",
+      "country": "Ghana",
+      "date_added": "27-Sep-20",
+      "release_year": 2020,
+      "rating": "TV-MA",
+      "duration": "97 min ",
+      "listed_in": "Romance",
+      "description": "PIRO Production",
+      "url": "https://www.youtube.com/embed/dIDAGj63l10"
+   },
+   "2": {
+      "type": "movie",
+      "title": "Emerepa Beba",
+      "director": "Hans Rudolf",
+      "cast": "Kwadwo Nkansa, Bill Asamoah, Ellen White, Ashly Abigail Agyei",
+      "country": "Ghana",
+      "date_added": "24-Sep-20",
+      "release_year": 2020,
+      "rating": "TV-MA",
+      "duration": "127 min",
+      "listed_in": "Drama",
+      "description": "Great Hans Pictures",
+      "url": "https://www.youtube.com/embed/2GieBFCNeI0"
+   },
+   "3": {
+      "type": "movie",
+      "title": "Accra Hustlers",
+      "director": "Kofi Awuah",
+      "cast": "Kobby Acheampong, Ian Wordi, Kobi Rana, Kwesi Arthur",
+      "country": "",
+      "date_added": "19-Sep-20",
+      "release_year": 2020,
+      "rating": "TV-MA",
+      "duration": "90 min",
+      "listed_in": "Comedy",
+      "description": "Krups Production",
+      "url": "https://www.youtube.com/embed/t4CU7Kxkh54"
+   }
+}
